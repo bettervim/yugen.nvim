@@ -2,6 +2,10 @@
 
 **yugen** is a Neovim theme inspired by the profound beauty and depth of the concept of "yūgen." It aims to provide a minimalist and aesthetically pleasing color scheme for coding, highlighting both subtle and profound elements in your workspace.
 
+<p align="center">
+  <img width="1000" src="./_assets/cover.png" />
+</p>
+
 ## Installation 📦
 
 To use **yugen** in Neovim, follow the installation instructions below based on your preferred plugin manager.
