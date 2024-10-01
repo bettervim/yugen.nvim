@@ -25,7 +25,7 @@ function M.get(config)
     DarkenedPanel = { bg = groups.panel },
     DarkenedStatusline = { bg = groups.panel },
     DiffAdd = { bg = p.color700, },
-    DiffChange = { bg = p.placeholder },
+    DiffChange = { fg = p.color200, bg = p.color700 },
     DiffDelete = { bg = p.color700 },
     DiffText = { bg = p.color700 },
     diffAdded = { link = 'DiffAdd' },
@@ -76,43 +76,43 @@ function M.get(config)
     Whitespace = { fg = p.color700 },
     WildMenu = { link = 'IncSearch' },
 
-    Constant = { fg = p.color200 },       -- (preferred) any constant
-    String = { fg = p.primary },          --   a string constant: "this is a string"
-    Character = { fg = p.successuccess }, --  a character constant: 'c', '\n'
-    Number = { fg = p.primary },          --   a number constant: 234, 0xff
-    Boolean = { fg = p.primary },         --  a boolean constant: TRUE, false
-    Float = { fg = p.primary },           --    a floating point constant: 2.3e10
+    Constant = { fg = p.color200 },        
+    String = { fg = p.primary },           
+    Character = { fg = p.successuccess },  
+    Number = { fg = p.primary },           
+    Boolean = { fg = p.primary },          
+    Float = { fg = p.primary },           
 
-    Identifier = { fg = p.color200 },     -- (preferred) any variable name
-    Function = { fg = p.primary },        -- function name (also: methods for classes)
+    Identifier = { fg = p.color200 },      
+    Function = { fg = p.primary },        
 
-    Statement = { fg = p.color200 },      -- (preferred) any statement
-    Conditional = { fg = p.color200 },    --  if, then, else, endif, switch, etc.
-    Repeat = { fg = p.color200 },         --   for, do, while, etc.
-    Label = { fg = p.color200 },          --    case, default, etc.
-    Operator = { fg = p.color400 },       -- "sizeof", "+", "*", etc.
-    Keyword = { fg = p.color400 },        --  any other keyword
-    Exception = { fg = p.color200 },      --  try, catch, throw
+    Statement = { fg = p.color200 },       
+    Conditional = { fg = p.color200 },     
+    Repeat = { fg = p.color200 },          
+    Label = { fg = p.color200 },           
+    Operator = { fg = p.color400 },        
+    Keyword = { fg = p.color400 },         
+    Exception = { fg = p.color200 },      
 
-    PreProc = { fg = p.color200 },        -- (preferred) generic Preprocessor
-    Include = { fg = p.primary },         --  preprocessor #include
+    PreProc = { fg = p.color200 },         
+    Include = { fg = p.primary },         
 
-    Type = { fg = p.color300 },           -- (preferred) int, long, char, etc.
+    Type = { fg = p.color300 },           
 
-    Special = { fg = p.color200 },        -- (preferred) any special symbol
-    Tag = { fg = p.primary },             --    you can use CTRL-] on this
-    Delimiter = { fg = p.color200 },      --  character that needs attention
-    SpecialComment = { fg = p.color500 }, -- special things inside a comment
+    Special = { fg = p.color200 },         
+    Tag = { fg = p.primary },              
+    Delimiter = { fg = p.color200 },       
+    SpecialComment = { fg = p.color500 }, 
 
-    Comment = { fg = p.color500 },        -- (preferred) any special symbol
+    Comment = { fg = p.color500 },        
 
-    Underlined = { style = 'underline' }, -- (preferred) text that stands out, HTML links
+    Underlined = { style = 'underline' },  
     Bold = { style = 'bold' },
     Italic = { style = 'italic' },
     qfLineNr = { fg = p.color200 },
     qfFileName = { fg = p.color200 },
-    debugPC = { bg = p.color800 },                             -- used for highlighting the current line in terminal-debug
-    debugBreakpoint = { bg = p.placeholder, fg = p.color200 }, -- used for breakpoint colors in terminal-debug
+    debugPC = { bg = p.color800 },                              
+    debugBreakpoint = { bg = p.placeholder, fg = p.color200 },  
     DiagnosticError = { fg = groups.error },
     DiagnosticHint = { fg = groups.hint },
     DiagnosticInfo = { fg = groups.info },
@@ -212,8 +212,8 @@ function M.get(config)
     LspReferenceWrite = { bg = p.color8000 },
 
     -- lsp-highlight-codelens
-    LspCodeLens = { fg = p.color200 },          -- virtual text of code lens
-    LspCodeLensSeparator = { fg = p.color200 }, -- separator between two or more code lens
+    LspCodeLens = { fg = p.color200 },           
+    LspCodeLensSeparator = { fg = p.color200 }, 
 
     -- lewis6991/gitsigns.nvim
     GitSignsAdd = { fg = groups.git_add },
