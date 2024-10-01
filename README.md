@@ -2,7 +2,7 @@
 
 **yugen** is a Neovim theme inspired by the profound beauty and depth of the concept of "yūgen." It aims to provide a minimalist and aesthetically pleasing color scheme for coding, highlighting both subtle and profound elements in your workspace.
 
-## Installation
+## Installation 📦
 
 To use **yugen** in Neovim, follow the installation instructions below based on your preferred plugin manager.
 
@@ -26,17 +26,13 @@ Then, run the following in Neovim:
 :Lazy sync
 ```
 
-## Usage
-
-After installing, you can set **yugen** as your colorscheme with:
-
-```vim
-colorscheme yugen
-```
-
 Add the line to your `init.vim` or `init.lua` to make it your default theme.
 
+## Credits 👤
 
-## License
+This theme started as a fork of [poimandres.nvim](https://github.com/olivercederborg/poimandres.nvim), and its foundation is still used by the theme. A big thanks to the original creators for their amazing work and inspiration.
 
-yugen is licensed under the MIT License. See the [LICENSE](https://github.com/bettervim/yugen
+
+## License ⚖️
+
+yugen is licensed under the MIT License. See the [LICENSE](https://github.com/bettervim/yugen).
