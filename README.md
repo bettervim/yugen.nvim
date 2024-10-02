@@ -17,7 +17,7 @@ Add the following line to your lazy configuration:
 
 ```lua
 {
-    'bettervim/yugen',
+    'bettervim/yugen.nvim',
     config = function()
         vim.cmd.colorscheme('yugen')
     end,
