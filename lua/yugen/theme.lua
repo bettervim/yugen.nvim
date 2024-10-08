@@ -16,7 +16,7 @@ function M.get(config)
 
   theme = {
     ColorColumn = { bg = p.placeholder },
-    Conceal = { bg = p.placeholder },
+    Conceal = { fg = p.color200, bg = p.none },
     CurSearch = { link = 'IncSearch' },
     Cursor = { fg = p.color200, bg = p.placeholder },
     CursorColumn = { bg = p.color800 },
@@ -76,43 +76,43 @@ function M.get(config)
     Whitespace = { fg = p.color700 },
     WildMenu = { link = 'IncSearch' },
 
-    Constant = { fg = p.color200 },        
-    String = { fg = p.primary },           
-    Character = { fg = p.successuccess },  
-    Number = { fg = p.primary },           
-    Boolean = { fg = p.primary },          
-    Float = { fg = p.primary },           
+    Constant = { fg = p.color200 },
+    String = { fg = p.primary },
+    Character = { fg = p.successuccess },
+    Number = { fg = p.primary },
+    Boolean = { fg = p.primary },
+    Float = { fg = p.primary },
 
-    Identifier = { fg = p.color200 },      
-    Function = { fg = p.primary },        
+    Identifier = { fg = p.color200 },
+    Function = { fg = p.primary },
 
-    Statement = { fg = p.color200 },       
-    Conditional = { fg = p.color200 },     
-    Repeat = { fg = p.color200 },          
-    Label = { fg = p.color200 },           
-    Operator = { fg = p.color400 },        
-    Keyword = { fg = p.color400 },         
-    Exception = { fg = p.color200 },      
+    Statement = { fg = p.color200 },
+    Conditional = { fg = p.color200 },
+    Repeat = { fg = p.color200 },
+    Label = { fg = p.color200 },
+    Operator = { fg = p.color400 },
+    Keyword = { fg = p.color400 },
+    Exception = { fg = p.color200 },
 
-    PreProc = { fg = p.color200 },         
-    Include = { fg = p.primary },         
+    PreProc = { fg = p.color200 },
+    Include = { fg = p.primary },
 
-    Type = { fg = p.color300 },           
+    Type = { fg = p.color300 },
 
-    Special = { fg = p.color200 },         
-    Tag = { fg = p.primary },              
-    Delimiter = { fg = p.color200 },       
-    SpecialComment = { fg = p.color500 }, 
+    Special = { fg = p.color200 },
+    Tag = { fg = p.primary },
+    Delimiter = { fg = p.color200 },
+    SpecialComment = { fg = p.color500 },
 
-    Comment = { fg = p.color500 },        
+    Comment = { fg = p.color500 },
 
-    Underlined = { style = 'underline' },  
+    Underlined = { style = 'underline' },
     Bold = { style = 'bold' },
     Italic = { style = 'italic' },
     qfLineNr = { fg = p.color200 },
     qfFileName = { fg = p.color200 },
-    debugPC = { bg = p.color800 },                              
-    debugBreakpoint = { bg = p.placeholder, fg = p.color200 },  
+    debugPC = { bg = p.color800 },
+    debugBreakpoint = { bg = p.placeholder, fg = p.color200 },
     DiagnosticError = { fg = groups.error },
     DiagnosticHint = { fg = groups.hint },
     DiagnosticInfo = { fg = groups.info },
@@ -212,8 +212,8 @@ function M.get(config)
     LspReferenceWrite = { bg = p.color8000 },
 
     -- lsp-highlight-codelens
-    LspCodeLens = { fg = p.color200 },           
-    LspCodeLensSeparator = { fg = p.color200 }, 
+    LspCodeLens = { fg = p.color200 },
+    LspCodeLensSeparator = { fg = p.color200 },
 
     -- lewis6991/gitsigns.nvim
     GitSignsAdd = { fg = groups.git_add },
@@ -368,7 +368,7 @@ function M.get(config)
   vim.g.terminal_color_5 = p.primary
   vim.g.terminal_color_13 = p.placeholder
   vim.g.terminal_color_6 = p.color200
-  vim.g.terminal_color_14 = p.placeholder
+  vim.g.terminal_color_14 = p.color200
   vim.g.terminal_color_7 = p.color100
   vim.g.terminal_color_15 = p.color100
 
