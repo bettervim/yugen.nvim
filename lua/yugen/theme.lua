@@ -223,6 +223,10 @@ function M.get(config)
     SignChange = { link = 'GitSignsChange' },
     SignDelete = { link = 'GitSignsDelete' },
 
+    --  nvimdev/indentmini.nvim
+    IndentLine = { fg = p.color600 },
+    IndentLineCurrent = { fg = p.color100 },
+
     -- NvimTree
     NvimTreeFileDirty = { fg = p.color200 },
     NvimTreeFileNew = { fg = p.color200 },
