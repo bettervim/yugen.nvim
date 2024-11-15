@@ -223,6 +223,12 @@ function M.get(config)
     SignChange = { link = 'GitSignsChange' },
     SignDelete = { link = 'GitSignsDelete' },
 
+    -- lukas-reineke/indent-blankline.nvim
+    IndentBlanklineChar = { fg = p.color600 },
+    IndentBlanklineContextChar = { fg = p.color100 },
+    IblIndent = { fg = p.color600 },
+    IblScope = { fg = p.color100 },
+
     --  nvimdev/indentmini.nvim
     IndentLine = { fg = p.color600 },
     IndentLineCurrent = { fg = p.color100 },
