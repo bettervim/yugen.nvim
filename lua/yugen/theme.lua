@@ -274,6 +274,26 @@ function M.get(config)
     CmpItemKindSnippet = { fg = p.primary },
     CmpItemKindVariable = { fg = p.primary },
 
+    -- Saghen/blink.cmp
+    BlinkCmpMenu = { bg = p.color800 },
+    BlinkCmpMenuBorder = { fg = p.color600 },
+    BlinkCmpMenuSelection = "PmenuSel",
+    BlinkCmpLabel = { fg = p.color300 },
+    BlinkCmpLabelDepricated = { fg = p.color700, style = 'strikethrough' },
+    BlinkCmpLabelMatch = { fg = p.color100 },
+    BlinkCmpGhostText = { fg = p.color500 },
+    BlinkCmpDoc = { bg = p.color800 },
+    BlinkCmpDocBorder = { fg = p.color600 },
+    BlinkCmpSignatureHelpBorder = { fg = p.color600 },
+    BlinkCmpKindText = { fg = p.primary },
+    BlinkCmpKindFunction = { fg = p.primary },
+    BlinkCmpKindVariable = { fg = p.primary },
+    BlinkCmpKindEnum = { fg = p.primary },
+    BlinkCmpKindSnippet = { fg = p.primary },
+    BlinkCmpKindField = { fg = p.primary },
+    BlinkCmpKindConstant = { fg = p.primary },
+    BlinkCmpKindMethod = { fg = p.primary },
+
     -- ray-x/lsp_signature.nvim
     LspSignatureActiveParameter = { bg = p.placeholder },
 
