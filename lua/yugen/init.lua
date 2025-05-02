@@ -6,7 +6,7 @@ local config = {
   bold_vert_split = false,
   dark_variant = 'main',
   transparent = false,
-  statusline_transparent = false,
+  transparent_statusline = false,
   disable_italics = false,
   dim_nc_background = false,
 
