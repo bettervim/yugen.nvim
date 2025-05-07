@@ -263,7 +263,7 @@ function M.get(config)
     WhichKeyGroup = { fg = p.color200 },
     WhichKeySeparator = { fg = p.color500 },
     WhichKeyDesc = { fg = p.color200 },
-    WhichKeyBorder = { bg = p.color200 },
+    WhichKeyBorder = { group = groups.border },
     WhichKeyFloat = { bg = p.color700 },
     WhichKeyValue = { fg = p.color200 },
 
